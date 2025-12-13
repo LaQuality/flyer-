@@ -40,9 +40,9 @@ export default function Header() {
           {/* Liens version ordinateur */}
           <nav className="hidden md:flex gap-8 text-md font-medium">
             
-             {liens.map((lien) => (
+             {liens.map((lien,index) => (
 
-                <a className="hover:text-blue-600 transition" key={lien.text} href={lien.href}>{lien.text}</a>
+                <a className="hover:text-blue-600 transition" key={index} href={lien.href}>{lien.text}</a>
 
              ))}
 
@@ -65,9 +65,9 @@ export default function Header() {
 
         {/* Liens */}
         <nav className="flex flex-col gap-6 text-lg p-4">
-          {liens.map((lien) => (
+          {liens.map((lien,index) => (
 
-                <a className="hover:text-blue-600 transition" key ={lien.text} href={lien.href}>{lien.text}</a>
+                <a className="hover:text-blue-600 transition" key ={index} href={lien.href}>{lien.text}</a>
 
              ))}
           
