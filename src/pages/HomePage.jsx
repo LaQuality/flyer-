@@ -105,7 +105,7 @@ export default function HomePage() {
 
                     </div>
 
-                    <a href="" className="mt-10"><Button color={"bg-blue-500"}>Découvrir Plus <Search strokeWidth={1} /> </Button></a>
+                    <a href="" className="mt-10"><Button color={"bg-blue-500"}>Découvrir Plus <Search size={20} strokeWidth={1} /> </Button></a>
 
               </section>
 
