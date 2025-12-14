@@ -37,7 +37,7 @@ export default function HomePage() {
               <div className="w-[85%] text-center mt-8" >
                     <h2 className="text-3xl md:text-4xl font-bold">Qui sommes Nous ?</h2>
 
-                    <p className="mt-2 mb-8">Lorem ipsum adipisicing elit. Eum amet architecto debitis necessitatibus provident saepe eligendi inventore error consequatur tenetur! Delectus corrupti dicta nobis, blanditiis cumque iure! Voluptates, alias aspernatur.</p>
+                    <p className="mt-2 mb-8 font-bold">Lorem ipsum adipisicing elit. Eum amet architecto debitis necessitatibus provident saepe eligendi inventore error consequatur tenetur! Delectus corrupti dicta nobis, blanditiis cumque iure! Voluptates, alias aspernatur.</p>
 
                     <Button color={"bg-blue-500"} fonction ={()=>document.getElementById('my_modal_3').showModal()} >Notre Vision</Button>
                     <ModalVision/>
