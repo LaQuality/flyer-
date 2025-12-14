@@ -2,24 +2,27 @@ import { Route, Routes } from "react-router-dom"
 import Structure from "./layouts/Structure"
 import HomePage from "./pages/HomePage"
 import ErrorPage from "./pages/ErrorPage"
+import Header from "./components/Header"
+import Footer from "./components/Footer"
 
 function App() {
  
 
   return (
     <>
-         <Routes>
+        
 
-         <Route element = { <Structure/>}>
+            <Header/>
+         
 
-         <Route path="/*" element= {<HomePage/>} />
-         <Route path="/" element= {<ErrorPage/>} />
+            <HomePage/>
         
            
-         </Route>
+            <Footer/>
+           
         
 
-         </Routes>
+        
     </>
   )
 }
