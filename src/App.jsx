@@ -12,8 +12,8 @@ function App() {
 
          <Route element = { <Structure/>}>
 
-         <Route path="/" element= {<HomePage/>} />
-         <Route path="/*" element= {<ErrorPage/>} />
+         <Route path="/*" element= {<HomePage/>} />
+         <Route path="/" element= {<ErrorPage/>} />
         
            
          </Route>
