@@ -7,8 +7,9 @@ export default function Carousel2() {
        <div className="my-8 w-full flex flex-col items-center text-center relative">
 
 
-                <h2 className="text-2xl md:text-3xl font-bold ">Pourquoi Nous ?</h2>
+                <h2 className="text-3xl md:text-4xl font-bold ">Pourquoi Nous ?</h2>
 
+               <div className="w-full md:w-[90%] flex flex-col items-center md:flex-row md:justify-around ">
 
                <div className="carousel w-[85%]">
 
@@ -30,8 +31,11 @@ export default function Carousel2() {
                       
                     </div>
                   </div>
+
           
                   <AnimationCarousel2 image={pourquoiNous} />
+
+                  </div>
 
           </div>
   )

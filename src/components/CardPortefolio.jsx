@@ -7,7 +7,7 @@ export default function CardPortefolio({image,lien,texte,titre}) {
                                    <figure>
                                      <img
                                        src={image}
-                                       className="w-full h-55 object-cover"
+                                       className="w-full h-55 object-cover animate-zoom "
                                        alt="t-change image" />
                                    </figure>
                                    <div className="card-body">

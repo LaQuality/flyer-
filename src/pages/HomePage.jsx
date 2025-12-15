@@ -32,10 +32,10 @@ export default function HomePage() {
     <>   
         <Carousel/>
   
-         <section className="flex flex-col w-full items-center lg:flex-row justify-around md:mt-15" id="about">
+         <section className="flex flex-col w-full items-center  justify-around md:mt-15" id="about">
 
               <div className="w-[85%] text-center mt-8" >
-                    <h2 className="text-3xl md:text-4xl font-bold">Qui sommes Nous ?</h2>
+                    <h2 className="text-4xl md:text-5xl font-bold">About Us</h2>
 
                     <p className="mt-2 mb-8 font-bold">Lorem ipsum adipisicing elit. Eum amet architecto debitis necessitatibus provident saepe eligendi inventore error consequatur tenetur! Delectus corrupti dicta nobis, blanditiis cumque iure! Voluptates, alias aspernatur.</p>
 
@@ -52,7 +52,7 @@ export default function HomePage() {
          
           <section className="w-full flex flex-col items-center " id="services">
 
-                  <h2 className="text-3xl md:text-4xl mb-5 md:mb-15 font-bold -mt-15  ">Nos services</h2>
+                  <h2 className="text-4xl md:text-5xl mb-5 md:mb-15 font-bold -mt-15 md:mt-0  ">Nos services</h2>
                   
                   <div className=" w-full flex flex-col items-center md:flex-row md:justify-center gap-4">
 
@@ -63,6 +63,8 @@ export default function HomePage() {
                              <p className="text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                         </div>
                    </div>
+
+                   
 
                    <div className="bg-blue-50 w-[90%] rounded-sm mb-5 md:max-w-[30%] ">
                         <div className="px-3 py-2">
@@ -88,7 +90,7 @@ export default function HomePage() {
 
                 <div className="w-full text-center mt-15 lg:mt-25">
 
-                  <h2 className="text-3xl md:text-4xl  mb-5 font-bold">Nos Portefolios</h2>
+                  <h2 className="text-4xl md:text-5xl  mb-5 font-bold">Nos Portefolios</h2>
                   <p className=" mb-8 text-center">Lorem Eum amet architecto debitis necessitatibus provident saepe eligendi.</p>
                    
 
@@ -113,7 +115,7 @@ export default function HomePage() {
 
                <section className="w-full flex flex-col items-center " id="projets">
 
-                  <h2 className="text-3xl md:text-4xl mb-5 md:mb-15 mt-15 md:mt-25 font-bold">Nos Projets</h2>
+                  <h2 className="text-4xl md:text-5xl mb-5 md:mb-15 mt-15 md:mt-25 font-bold">Nos Projets</h2>
 
                   <div className="w-[85%] flex flex-col  md:flex-row gap-8 md:gap-10 ">
 
@@ -142,7 +144,7 @@ export default function HomePage() {
                     <div className="hero-overlay"></div>
                     <div className="hero-content text-neutral-content text-center grid grid-cols-1">
                       <div className="max-w-md">
-                        <h1 className="mb-5 text-4xl font-bold">Contactez - nous</h1>
+                        <h1 className="mb-5 text-4xl md:text-5xl font-bold">Contactez - nous</h1>
                         <p className="mb-5">
                           Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem
                           quasi. In deleniti eaque aut repudiandae et a id nisi.
@@ -161,7 +163,7 @@ export default function HomePage() {
 
                     <div className="w-full text-center " id="suivez">
 
-                      <h2 className="text-3xl md:text-4xl mt-15  mb-5 font-bold">Suivez - nous</h2>
+                      <h2 className="text-4xl md:text-5xl mt-15  mb-5 font-bold">Suivez - nous</h2>
                       <p className=" mb-8 text-center">Lorem Eum amet architecto debitis necessitatibus provident saepe eligendi.</p>
                       
                       <div className="w-full flex justify-center gap-1.5">

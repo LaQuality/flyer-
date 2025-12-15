@@ -11,6 +11,33 @@ html {
   scroll-behavior: smooth;
 }
 
+.reveal {
+  opacity: 0;
+  transform: translateY(40px);
+  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+.reveal.active {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+@keyframes zoom {
+  0%,
+  100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.5);
+  }
+}
+
+.animate-zoom {
+  animation: zoom 18s ease-in-out infinite;
+}
+
+/* 
+
 @keyframes scroll {
   0% {
     transform: translateX(100%);
@@ -27,4 +54,4 @@ html {
   display: inline-block;
   white-space: nowrap;
   animation: scroll 20s ease infinite;
-}
+} */

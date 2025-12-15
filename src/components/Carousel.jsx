@@ -2,6 +2,7 @@ import imageCarousel1 from "../assets/images/carousel1.jpg"
 import imageCarousel2 from "../assets/images/carousel2.jpg"
 import imageCarousel3 from "../assets/images/carousel3.jpg"
 import Button from "./Button"
+import Intersection from "./Intersection"
 
 export default function Carousel() {
   return (
@@ -19,8 +20,8 @@ export default function Carousel() {
                           `
                       }}  >  
                           <div className="ml-2.5 md:ml-[60px] max-w-[80%] ">
-                              <h2 className="font-bold text-3xl md:text-5xl text-white">Un design personnalisé</h2>
-                              <p className=" text-[15px] md:text-[16px] text-white mb-2 font-monserrat font-bold">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo vero ullam iure officia, hic quas quo voluptates pariatur .</p>         
+                              <Intersection tag="h2" stylo ="font-bold text-3xl md:text-5xl text-white"> Un design personnalisé</Intersection>
+                              <Intersection tag="p" stylo ="text-[15px] md:text-[16px] text-white mb-2 font-monserrat font-bold"> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo vero ullam iure officia, hic quas quo voluptates pariatur .</Intersection>                              
                               <a href=""><Button color={"bg-blue-500"}>Contactez - Nous</Button></a>
                           </div>    
                     </div>
@@ -45,9 +46,9 @@ export default function Carousel() {
                           `
                       }}>
                           <div className="max-w-[80%] ">
-                            <h2 className="font-bold text-3xl md:text-5xl text-white">Un design personnalisé</h2>
-                            <p className=" text-[15px] md:text-[16px] text-white mb-2 font-monserrat font-bold">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo vero ullam iure officia, hic quas quo voluptates pariatur .</p>         
-                            <a href=""><Button color={"bg-blue-500"}>Contactez - Nous</Button></a>
+                              <Intersection tag="h2" stylo ="font-bold text-3xl md:text-5xl text-white"> Un design personnalisé</Intersection>
+                              <Intersection tag="p" stylo ="text-[15px] md:text-[16px] text-white mb-2 font-monserrat font-bold"> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo vero ullam iure officia, hic quas quo voluptates pariatur .</Intersection>                              
+                              <a href=""><Button color={"bg-blue-500"}>Contactez - Nous</Button></a>
 
                           </div>
                       </div>
@@ -70,8 +71,8 @@ export default function Carousel() {
                       }}>
 
                          <div className="mr-2.5 md:mr-[60px] max-w-[80%] ">
-                              <h2 className="font-bold text-3xl md:text-5xl text-white">Un design personnalisé</h2>
-                              <p className=" text-[15px] md:text-[16px]  text-white mb-2 font-monserrat font-bold ">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo vero ullam iure officia, hic quas quo voluptates pariatur .</p>         
+                              <Intersection tag="h2" stylo ="font-bold text-3xl md:text-5xl text-white"> Un design personnalisé</Intersection>
+                              <Intersection tag="p" stylo ="text-[15px] md:text-[16px] text-white mb-2 font-monserrat font-bold"> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo vero ullam iure officia, hic quas quo voluptates pariatur .</Intersection>                              
                               <a href=""><Button color={"bg-blue-500"}>Contactez - Nous</Button></a>
                  
                          </div>      

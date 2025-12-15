@@ -33,7 +33,7 @@ export default function AnimationCarousel2({ image }) {
         {/* IMAGE */}
         <img
           src={image}
-          className="absolute right-0 -bottom-33 h-77 object-cover -z-10 md:hidden"
+          className="absolute right-0 -bottom-33 h-77 object-cover -z-10 md:h-100 md:-bottom-40"
           alt="image animée"
         />
       </motion.div>

@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom"
 import logo from "../assets/images/logo.png"
 import { useState } from "react";
+import Intersection from "./Intersection"
 
 
 
@@ -9,7 +10,7 @@ export default function Header() {
 
     // Nos Liens
 
-  const liens = [{href : "#", text:"Acceuil"},
+  const liens = [{href : "#", text:"Home"},
     {href : "#about", text:"Qui sommes - Nous"},
     {href : "#services", text:"Services"},
     {href : "#portefolio", text:"Portefolio"},
@@ -42,7 +43,7 @@ export default function Header() {
             
              {liens.map((lien,index) => (
 
-                <a className="hover:text-blue-600 transition" key={index} href={lien.href}>{lien.text}</a>
+                <a className="hover:text-blue-600 transition font-bold" onClick={() => setOpen(false)} key={index} href={lien.href}>{lien.text}</a>
 
              ))}
 
@@ -64,12 +65,15 @@ export default function Header() {
         <div className="w-full flex justify-center mt-5"><img className=" w-17" src={logo} alt="logo de flyer" /></div>
 
         {/* Liens */}
-        <nav className="flex flex-col gap-6 text-lg p-4">
+        <nav className="flex flex-col gap-6 text-lg p-8">
           {liens.map((lien,index) => (
 
-                <a className="hover:text-blue-600 transition" key ={index} href={lien.href}>{lien.text}</a>
-
+                <a className="hover:text-blue-600 transition font-bold" onClick={() => setOpen(false)} key ={index} href={lien.href}> <Intersection tag="div" stylo ="">{lien.text}</Intersection> </a> 
+                
+                 
              ))}
+
+
           
         </nav>
 
