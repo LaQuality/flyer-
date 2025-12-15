@@ -68,7 +68,7 @@ export default function Header() {
         <nav className="flex flex-col gap-6 text-lg p-8">
           {liens.map((lien,index) => (
 
-                <a className="hover:text-blue-600 transition font-bold" onClick={() => setOpen(false)} key ={index} href={lien.href}> <Intersection tag="div" stylo ="">{lien.text}</Intersection> </a> 
+                <a className="hover:text-blue-600 transition" onClick={() => setOpen(false)} key ={index} href={lien.href}> <Intersection tag="div" stylo ="">{lien.text}</Intersection> </a> 
                 
                  
              ))}

@@ -37,7 +37,7 @@ export default function HomePage() {
               <div className="w-[85%] text-center mt-8" >
                     <h2 className="text-4xl md:text-5xl font-bold">About Us</h2>
 
-                    <p className="mt-2 mb-8 font-bold">Lorem ipsum adipisicing elit. Eum amet architecto debitis necessitatibus provident saepe eligendi inventore error consequatur tenetur! Delectus corrupti dicta nobis, blanditiis cumque iure! Voluptates, alias aspernatur.</p>
+                    <p className="mt-2 mb-8 ">Lorem ipsum adipisicing elit. Eum amet architecto debitis necessitatibus provident saepe eligendi inventore error consequatur tenetur! Delectus corrupti dicta nobis, blanditiis cumque iure! Voluptates, alias aspernatur.</p>
 
                     <Button color={"bg-blue-500"} fonction ={()=>document.getElementById('my_modal_3').showModal()} >Notre Vision</Button>
                     <ModalVision/>
@@ -124,7 +124,7 @@ export default function HomePage() {
                       <div>
 
                            <h3 className="text-xl md:text-2xl font-bold">Postopage</h3>
-                           <p className="my-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor quibusdam laboriosam aliquam reiciendis unde tenetur similique suscipit. Voluptatem libero aliquid rem quisquam voluptatum .</p>
+                           <p className="my-5 ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor quibusdam laboriosam aliquam reiciendis unde tenetur similique suscipit. Voluptatem libero aliquid rem quisquam voluptatum .</p>
                          
                             <Button color={"bg-blue-500"} >Découvrir</Button>
                            
@@ -145,7 +145,7 @@ export default function HomePage() {
                     <div className="hero-content text-neutral-content text-center grid grid-cols-1">
                       <div className="max-w-md">
                         <h1 className="mb-5 text-4xl md:text-5xl font-bold">Contactez - nous</h1>
-                        <p className="mb-5">
+                        <p className="mb-5 ">
                           Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem
                           quasi. In deleniti eaque aut repudiandae et a id nisi.
                         </p>
@@ -164,7 +164,7 @@ export default function HomePage() {
                     <div className="w-full text-center " id="suivez">
 
                       <h2 className="text-4xl md:text-5xl mt-15  mb-5 font-bold">Suivez - nous</h2>
-                      <p className=" mb-8 text-center">Lorem Eum amet architecto debitis necessitatibus provident saepe eligendi.</p>
+                      <p className=" mb-8 text-center ">Lorem Eum amet architecto debitis necessitatibus provident saepe eligendi.</p>
                       
                       <div className="w-full flex justify-center gap-1.5">
  

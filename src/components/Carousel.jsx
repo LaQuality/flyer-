@@ -21,7 +21,7 @@ export default function Carousel() {
                       }}  >  
                           <div className="ml-2.5 md:ml-[60px] max-w-[80%] ">
                               <Intersection tag="h2" stylo ="font-bold text-3xl md:text-5xl text-white"> Un design personnalisé</Intersection>
-                              <Intersection tag="p" stylo ="text-[15px] md:text-[16px] text-white mb-2 font-monserrat font-bold"> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo vero ullam iure officia, hic quas quo voluptates pariatur .</Intersection>                              
+                              <Intersection tag="p" stylo ="text-[15px] md:text-[16px] text-white mb-2 font-monserrat "> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo vero ullam iure officia, hic quas quo voluptates pariatur .</Intersection>                              
                               <a href=""><Button color={"bg-blue-500"}>Contactez - Nous</Button></a>
                           </div>    
                     </div>
@@ -47,7 +47,7 @@ export default function Carousel() {
                       }}>
                           <div className="max-w-[80%] ">
                               <Intersection tag="h2" stylo ="font-bold text-3xl md:text-5xl text-white"> Un design personnalisé</Intersection>
-                              <Intersection tag="p" stylo ="text-[15px] md:text-[16px] text-white mb-2 font-monserrat font-bold"> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo vero ullam iure officia, hic quas quo voluptates pariatur .</Intersection>                              
+                              <Intersection tag="p" stylo ="text-[15px] md:text-[16px] text-white mb-2 font-monserrat "> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo vero ullam iure officia, hic quas quo voluptates pariatur .</Intersection>                              
                               <a href=""><Button color={"bg-blue-500"}>Contactez - Nous</Button></a>
 
                           </div>
@@ -72,7 +72,7 @@ export default function Carousel() {
 
                          <div className="mr-2.5 md:mr-[60px] max-w-[80%] ">
                               <Intersection tag="h2" stylo ="font-bold text-3xl md:text-5xl text-white"> Un design personnalisé</Intersection>
-                              <Intersection tag="p" stylo ="text-[15px] md:text-[16px] text-white mb-2 font-monserrat font-bold"> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo vero ullam iure officia, hic quas quo voluptates pariatur .</Intersection>                              
+                              <Intersection tag="p" stylo ="text-[15px] md:text-[16px] text-white mb-2 font-monserrat "> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo vero ullam iure officia, hic quas quo voluptates pariatur .</Intersection>                              
                               <a href=""><Button color={"bg-blue-500"}>Contactez - Nous</Button></a>
                  
                          </div>      

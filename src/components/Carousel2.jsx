@@ -15,15 +15,15 @@ export default function Carousel2() {
 
 
                     <div id="item1" className="carousel-item w-full ">
-                          <p className="mt-2 mb-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum amet architecto debitis necessitatibus provident saepe, blanditiis cumque iure! Voluptates, alias aspernatur.</p>
+                          <p className="mt-2 mb-4 ">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum amet architecto debitis necessitatibus provident saepe, blanditiis cumque iure! Voluptates, alias aspernatur.</p>
                          
                     </div>
                     <div id="item2" className="carousel-item w-full">
-                          <p className="mt-2 mb-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum amet architecto debitis necessitatibus provident saepe, blanditiis cumque iure! Voluptates, alias aspernatur.</p>
+                          <p className="mt-2 mb-4 ">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum amet architecto debitis necessitatibus provident saepe, blanditiis cumque iure! Voluptates, alias aspernatur.</p>
 
                     </div>
                     <div id="item3" className="carousel-item w-full">
-                          <p className="mt-2 mb-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum amet architecto debitis necessitatibus provident saepe, blanditiis cumque iure! Voluptates, alias aspernatur.</p>
+                          <p className="mt-2 mb-4 ">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum amet architecto debitis necessitatibus provident saepe, blanditiis cumque iure! Voluptates, alias aspernatur.</p>
 
                     </div>
                     <div id="item4" className="carousel-item w-full">
