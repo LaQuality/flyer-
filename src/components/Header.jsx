@@ -15,7 +15,7 @@ export default function Header() {
     {href : "#services", text:"Services"},
     {href : "#portefolio", text:"Portefolio"},
     {href : "#projets", text:"Projets"},
-    { href : "#contact", text:"Contact"},
+    { href : "#contact", text:"Contactez - Nous"},
     {href : "#suivez", text:"Suivez - Nous"}];
 
   return (

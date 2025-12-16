@@ -8,9 +8,15 @@ import posto from "../assets/images/postopage.jpg"
 import video from "../assets/video/contact.mp4"
 import CardPortefolio from "../components/CardPortefolio";
 import Video from "../components/Video"
-import Bande from "../components/Bande"
 import ModalVision from "../components/ModalVision"
 import { Search } from "lucide-react";
+import Intersection from "../components/Intersection"
+import {
+  FaFacebookF,
+  FaInstagram,
+  FaLinkedinIn,
+  FaWhatsapp
+} from "react-icons/fa";
 
 
 
@@ -97,7 +103,7 @@ export default function HomePage() {
                 </div>
 
                   
-                   <div className="w-full flex flex-col items-center gap-5 md:flex-row md:justify-center"> 
+                   <div className="w-full flex flex-col items-center gap-5 mb-5 md:mb-10 md:flex-row md:justify-center"> 
                         
                          {CardPortefolios.map((Card,index) => 
                         
@@ -107,8 +113,9 @@ export default function HomePage() {
 
                     </div>
 
-                    <a href="" className="mt-10"><Button color={"bg-blue-500"}>Découvrir Plus <Search size={20} strokeWidth={1} /> </Button></a>
-
+                    
+                    <Intersection  tag={"div"}><a href="" className="mt-10"><Button color={"bg-blue-500"}>Découvrir Plus <Search size={20} strokeWidth={1} /> </Button></a></Intersection>
+                    
               </section>
 
 
@@ -126,7 +133,8 @@ export default function HomePage() {
                            <h3 className="text-xl md:text-2xl font-bold">Postopage</h3>
                            <p className="my-5 ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor quibusdam laboriosam aliquam reiciendis unde tenetur similique suscipit. Voluptatem libero aliquid rem quisquam voluptatum .</p>
                          
-                            <Button color={"bg-blue-500"} >Découvrir</Button>
+                            
+                            <Intersection  tag={"div"}><Button color={"bg-blue-500"} >Découvrir</Button></Intersection>
                            
                       </div>
 
@@ -149,8 +157,14 @@ export default function HomePage() {
                           Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem
                           quasi. In deleniti eaque aut repudiandae et a id nisi.
                         </p>
-                        <Button color={"bg-blue-500"} >Via Whatsapp</Button> &nbsp;
-                        <Button color={"bg-blue-500"} >Via Email</Button>
+                        <Intersection  tag={"div"}>
+                              <Button color={"bg-blue-500"} >Via Whatsapp</Button>
+                               &nbsp;
+                              <Button color={"bg-blue-500"} >Via Email</Button>
+                        </Intersection>
+                          
+                    
+
 
 
                       </div>
@@ -166,9 +180,50 @@ export default function HomePage() {
                       <h2 className="text-4xl md:text-5xl mt-15  mb-5 font-bold">Suivez - nous</h2>
                       <p className=" mb-8 text-center ">Lorem Eum amet architecto debitis necessitatibus provident saepe eligendi.</p>
                       
-                      <div className="w-full flex justify-center gap-1.5">
+                      <div className="w-full flex justify-center gap-4">
  
-                          
+                                  <a
+                                  href="https://facebook.com"
+                                  target="_blank"
+                                  rel="noopener noreferrer"
+                                  aria-label="Facebook"
+                                  className="text-3xl text-black hover:scale-110 transition-transform"
+                                >
+                                  <FaFacebookF />
+                                </a>
+
+                                {/* Instagram */}
+                                <a
+                                  href="https://instagram.com"
+                                  target="_blank"
+                                  rel="noopener noreferrer"
+                                  aria-label="Instagram"
+                                  className="text-3xl text-black  hover:scale-110 transition-transform"
+                                >
+                                  <FaInstagram />
+                                </a>
+
+                                {/* LinkedIn */}
+                                <a
+                                  href="https://linkedin.com"
+                                  target="_blank"
+                                  rel="noopener noreferrer"
+                                  aria-label="LinkedIn"
+                                  className="text-3xl text-black  hover:scale-110 transition-transform"
+                                >
+                                  <FaLinkedinIn />
+                                </a>
+
+                                {/* WhatsApp */}
+                                <a
+                                  href="https://wa.me/XXXXXXXXXX"
+                                  target="_blank"
+                                  rel="noopener noreferrer"
+                                  aria-label="WhatsApp"
+                                  className="text-3xl text-black  hover:scale-110 transition-transform"
+                                >
+                                  <FaWhatsapp />
+                                </a>
 
                           
                       </div>
