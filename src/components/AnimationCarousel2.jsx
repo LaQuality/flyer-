@@ -23,11 +23,11 @@ export default function AnimationCarousel2({ image }) {
         {/* DIV des boutons */}
         <div className="flex mt-2 w-full justify-center gap-2 py-2">
           <a href="#item1" className="btn btn-xs bg-blue-500 text-white">
-            1
+            
           </a>
-          <a href="#item2" className="btn btn-xs">2</a>
-          <a href="#item3" className="btn btn-xs">3</a>
-          <a href="#item4" className="btn btn-xs">4</a>
+          <a href="#item2" className="btn btn-xs">1</a>
+          <a href="#item3" className="btn btn-xs">2</a>
+          <a href="#item4" className="btn btn-xs">3</a>
         </div>
 
         {/* IMAGE */}
