@@ -11,7 +11,7 @@ export default function Carousel2() {
 
                <div className="w-full md:w-[90%] flex flex-col items-center md:flex-row md:justify-around ">
 
-               <div className="carousel w-[85%]">
+               <div className="carousel w-[85%] overflow-x-hidden">
 
 
                     <div id="item1" className="carousel-item w-full ">

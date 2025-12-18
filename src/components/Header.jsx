@@ -22,10 +22,10 @@ export default function Header() {
     <>
       {/* HEADER */}
       <header className="w-full fixed top-0 left-0 bg-white/90 shadow-md z-50">
-        <div className="max-w-7xl mx-auto flex items-center justify-between py-4 px-4">
+        <div className={`max-w-7xl mx-auto flex items-center justify-between py-4 px-4 ${ open ? "hidden" : "flex"} `}>
 
           {/* Logo */}
-          <div className="text-2xl font-bold flex gap-3">
+          <div className={`text-2xl font-bold flex gap-3`}>
             {/* Hamburger version mobile */}
             <button 
                className="md:hidden text-xl"
@@ -56,11 +56,13 @@ export default function Header() {
 
       {/* SIDEBAR MOBILE */}
       <div
-        className={`fixed top-0 left-0 h-full w-[80%] max-w-xs bg-white opacity-95 shadow-lg z-50 transform
+        className={`fixed top-0 left-0 h-full w-[80%] max-w-xs bg-white opacity-88 shadow-lg z-50 transform
           transition-transform duration-300 
           ${open ? "translate-x-0" : "-translate-x-full"}
         `}
       >
+          
+       
         {/* Logo dans la sidebar */}
         <div className="w-full flex justify-center mt-5"><img className=" w-17" src={logo} alt="logo de flyer" /></div>
 

@@ -1,7 +1,13 @@
 import { motion, useScroll, useTransform } from "framer-motion";
-import { useRef } from "react";
+import { useRef, useState } from "react";
 
 export default function AnimationCarousel2({ image }) {
+
+  const [active, setActive] = useState("item1");
+
+  const btnClass = (id) => `btn btn-xs shadow ${active === id ? "bg-blue-500  text-white" : ""}`;
+
+
   const ref = useRef(null);
 
   // On récupère la progression du scroll sur ce conteneur
@@ -22,12 +28,23 @@ export default function AnimationCarousel2({ image }) {
       >
         {/* DIV des boutons */}
         <div className="flex mt-2 w-full justify-center gap-2 py-2">
-          <a href="#item1" className="btn btn-xs bg-blue-500 text-white">
-            
-          </a>
-          <a href="#item2" className="btn btn-xs">1</a>
-          <a href="#item3" className="btn btn-xs">2</a>
-          <a href="#item4" className="btn btn-xs">3</a>
+              <a
+            href="#item1"
+            className={btnClass("item1")}
+            onClick={() => setActive("item1")}> 1 </a>
+              <a
+            href="#item2"
+            className={btnClass("item2")}
+            onClick={() => setActive("item2")}> 2 </a>
+              <a
+            href="#item3"
+            className={btnClass("item3")}
+            onClick={() => setActive("item3")}> 3 </a>
+              <a
+            href="#item4"
+            className={btnClass("item4")}
+            onClick={() => setActive("item4")}> 4 </a>
+              
         </div>
 
         {/* IMAGE */}
