@@ -66,7 +66,7 @@ export default function Carousel() {
         {/* SLIDE 1 */}
         <div id="slide1" className="carousel-item relative w-[85%] rounded-box">
           <div
-            className="w-full h-[80vh] rounded-box flex flex-col justify-center items-start bg-cover bg-center"
+            className="w-full h-[70vh] md:h-[80vh] rounded-box flex flex-col justify-center items-start bg-cover bg-center"
             style={{
               backgroundImage: `
                 linear-gradient(to bottom, rgba(0,0,0,0.3), rgba(0,0,0,0.5)),
@@ -89,7 +89,7 @@ export default function Carousel() {
         {/* SLIDE 2 */}
         <div id="slide2" className="carousel-item relative w-[85%] rounded-box">
           <div
-            className="w-full h-[80vh] rounded-box flex flex-col justify-center items-center text-center bg-cover bg-center"
+            className="w-full h-[70vh] md:h-[80vh] rounded-box flex flex-col justify-center items-center text-center bg-cover bg-center"
             style={{
               backgroundImage: `
                 linear-gradient(to bottom, rgba(0,0,0,0.3), rgba(0,0,0,0.5)),
@@ -112,7 +112,7 @@ export default function Carousel() {
         {/* SLIDE 3 */}
         <div id="slide3" className="carousel-item relative w-[85%] rounded-box">
           <div
-            className="w-full h-[80vh] rounded-box flex flex-col justify-center items-end text-end bg-cover bg-center"
+            className="w-full h-[70vh] md:h-[80vh] rounded-box flex flex-col justify-center items-end text-end bg-cover bg-center"
             style={{
               backgroundImage: `
                 linear-gradient(to bottom, rgba(0,0,0,0.3), rgba(0,0,0,0.5)),
