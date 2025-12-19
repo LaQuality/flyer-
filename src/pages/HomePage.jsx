@@ -17,6 +17,7 @@ import {
   FaLinkedinIn,
   FaWhatsapp
 } from "react-icons/fa";
+import TexteAnimation from "../components/TexteAnimation"
 
 
 
@@ -45,12 +46,14 @@ export default function HomePage() {
 
                     <p className="mt-2 mb-8 ">Lorem ipsum adipisicing elit. Eum amet architecto debitis necessitatibus provident saepe eligendi inventore error consequatur tenetur! Delectus corrupti dicta nobis, blanditiis cumque iure! Voluptates, alias aspernatur.</p>
 
-                    <Button color={"bg-blue-500"} fonction ={()=>document.getElementById('my_modal_3').showModal()} >Notre Vision</Button>
+                   
+                    <TexteAnimation  tag={"div"}><Button fonction ={()=>document.getElementById('my_modal_3').showModal()} color={"bg-blue-500"} >Notre vision</Button></TexteAnimation>
+                    
                     <ModalVision/>
                       
               </div>
 
-            <Carousel2/>
+              <Carousel2/>
           
         
          </section>
@@ -62,16 +65,19 @@ export default function HomePage() {
                   
                   <div className=" w-full flex flex-col items-center md:flex-row md:justify-center gap-4">
 
-                   <div className="bg-blue-50 w-[90%] rounded-sm mb-5 md:max-w-[30%] ">
+                  <TexteAnimation  tag={"div"} stylo="bg-blue-50 w-[90%] rounded-sm mb-5 md:max-w-[30%]">
+                   
                         <div className="px-3 py-2">
                              <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-laptop-minimal-check-icon lucide-laptop-minimal-check"><path d="M2 20h20"/><path d="m9 10 2 2 4-4"/><rect x="3" y="4" width="18" height="12" rx="2"/></svg>                    
                              <h2 className="text-xl md:text-2xl my-1 font-bold">Conception de Site Internet</h2>
                              <p className="text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                         </div>
-                   </div>
-
                    
-
+                 </TexteAnimation>
+                        
+                  
+                   
+                  <TexteAnimation  tag={"div"} stylo="bg-blue-50 w-[90%] rounded-sm mb-5 md:max-w-[30%]">
                    <div className="bg-blue-50 w-[90%] rounded-sm mb-5 md:max-w-[30%] ">
                         <div className="px-3 py-2">
                             <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-brush-icon lucide-brush"><path d="m11 10 3 3"/><path d="M6.5 21A3.5 3.5 0 1 0 3 17.5a2.62 2.62 0 0 1-.708 1.792A1 1 0 0 0 3 21z"/><path d="M9.969 17.031 21.378 5.624a1 1 0 0 0-3.002-3.002L6.967 14.031"/></svg>
@@ -79,7 +85,9 @@ export default function HomePage() {
                              <p className="text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                         </div>
                    </div>
+                   </TexteAnimation>
 
+                   <TexteAnimation  tag={"div" } stylo="bg-blue-50 w-[90%] rounded-sm mb-5 md:max-w-[30%]">
                    <div className="bg-blue-50 w-[90%] rounded-sm mb-5 md:max-w-[30%] ">
                         <div className="px-3 py-2">
                              <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-graduation-cap-icon lucide-graduation-cap"><path d="M21.42 10.922a1 1 0 0 0-.019-1.838L12.83 5.18a2 2 0 0 0-1.66 0L2.6 9.08a1 1 0 0 0 0 1.832l8.57 3.908a2 2 0 0 0 1.66 0z"/><path d="M22 10v6"/><path d="M6 12.5V16a6 3 0 0 0 12 0v-3.5"/></svg>
@@ -87,6 +95,7 @@ export default function HomePage() {
                              <p className="text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                         </div>
                    </div>
+                   </TexteAnimation>
                   </div>
 
 
@@ -114,7 +123,7 @@ export default function HomePage() {
                     </div>
 
                     
-                    <Intersection  tag={"div"}><a href="" className="mt-10"><Button color={"bg-blue-500"}>Découvrir Plus <Search size={20} strokeWidth={1} /> </Button></a></Intersection>
+                    <TexteAnimation  tag={"div"}><a href="" className="mt-10"><Button color={"bg-blue-500"}>Découvrir Plus <Search size={20} strokeWidth={1} /> </Button></a></TexteAnimation>
                     
               </section>
 
@@ -134,7 +143,7 @@ export default function HomePage() {
                            <p className="my-5 ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor quibusdam laboriosam aliquam reiciendis unde tenetur similique suscipit. Voluptatem libero aliquid rem quisquam voluptatum .</p>
                          
                             
-                            <Intersection  tag={"div"}><Button color={"bg-blue-500"} >Découvrir</Button></Intersection>
+                            <TexteAnimation  tag={"div"}><Button color={"bg-blue-500"} >Découvrir</Button></TexteAnimation>
                            
                       </div>
 
@@ -157,11 +166,11 @@ export default function HomePage() {
                           Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem
                           quasi. In deleniti eaque aut repudiandae et a id nisi.
                         </p>
-                        <Intersection  tag={"div"}>
+                        <TexteAnimation  tag={"div"}>
                               <Button color={"bg-blue-500"} >Via Whatsapp</Button>
                                &nbsp;
                               <Button color={"bg-blue-500"} >Via Email</Button>
-                        </Intersection>
+                        </TexteAnimation>
                           
                     
 
