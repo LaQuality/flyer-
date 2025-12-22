@@ -42,9 +42,17 @@ export default function HomePage() {
          <section className="flex flex-col w-full items-center  justify-around md:mt-15" id="about">
 
               <div className="w-[85%] text-center mt-8" >
-                    <h2 className="text-4xl md:text-5xl font-bold">About Us</h2>
+                    <h2 className="text-4xl md:text-5xl font-bold">Bienvenue chez Nous !</h2>
 
-                    <p className="mt-2 mb-8 ">Lorem ipsum adipisicing elit. Eum amet architecto debitis necessitatibus provident saepe eligendi inventore error consequatur tenetur! Delectus corrupti dicta nobis, blanditiis cumque iure! Voluptates, alias aspernatur.</p>
+                    <p className="mt-2 mb-8 ">
+                        Nous sommes une start-up innovante, passionnée par la création de solutions digitales qui font la différence.
+
+                        De la création de sites web à la conception graphique, en passant par les formations et l’innovation, nous mettons notre expertise au service de votre réussite et de votre croissance.
+
+                             <br />
+                        {/* <span className="text-blue-500">Découvrez comment nous pouvons transformer vos idées en succès.</span>  */}
+                      
+                    </p>
 
                    
                     <TexteAnimation  tag={"div"}><Button fonction ={()=>document.getElementById('my_modal_3').showModal()} color={"bg-blue-500"} >Notre vision</Button></TexteAnimation>
@@ -70,7 +78,7 @@ export default function HomePage() {
                         <div className="px-3 py-2">
                              <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-laptop-minimal-check-icon lucide-laptop-minimal-check"><path d="M2 20h20"/><path d="m9 10 2 2 4-4"/><rect x="3" y="4" width="18" height="12" rx="2"/></svg>                    
                              <h2 className="text-xl md:text-2xl my-1 font-bold">Conception de Site Internet</h2>
-                             <p className="text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                             <p className="text-sm">Nous créons tout type de site web pour chaque activité.!</p>
                         </div>
                    
                  </TexteAnimation>
@@ -78,23 +86,23 @@ export default function HomePage() {
                   
                    
                   <TexteAnimation  tag={"div"} stylo="bg-blue-50 w-[90%] rounded-sm mb-5 md:max-w-[30%]">
-                   <div className="bg-blue-50 w-[90%] rounded-sm mb-5 md:max-w-[30%] ">
+                  
                         <div className="px-3 py-2">
                             <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-brush-icon lucide-brush"><path d="m11 10 3 3"/><path d="M6.5 21A3.5 3.5 0 1 0 3 17.5a2.62 2.62 0 0 1-.708 1.792A1 1 0 0 0 3 21z"/><path d="M9.969 17.031 21.378 5.624a1 1 0 0 0-3.002-3.002L6.967 14.031"/></svg>
                              <h2 className="text-xl md:text-2xl my-1 font-bold">Design Graphique</h2>
-                             <p className="text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                             <p className="text-sm">Créations uniques de flyers, logos, affiches, bannières et plus encore.</p>
                         </div>
-                   </div>
+                  
                    </TexteAnimation>
 
                    <TexteAnimation  tag={"div" } stylo="bg-blue-50 w-[90%] rounded-sm mb-5 md:max-w-[30%]">
-                   <div className="bg-blue-50 w-[90%] rounded-sm mb-5 md:max-w-[30%] ">
+                   
                         <div className="px-3 py-2">
                              <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-graduation-cap-icon lucide-graduation-cap"><path d="M21.42 10.922a1 1 0 0 0-.019-1.838L12.83 5.18a2 2 0 0 0-1.66 0L2.6 9.08a1 1 0 0 0 0 1.832l8.57 3.908a2 2 0 0 0 1.66 0z"/><path d="M22 10v6"/><path d="M6 12.5V16a6 3 0 0 0 12 0v-3.5"/></svg>
                              <h2 className="text-xl md:text-2xl my-1 font-bold">Formation</h2>
-                             <p className="text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                             <p className="text-sm">Nous dispensons des formations pratiques en informatique et dans nos domaines d’expertise en particulier</p>
                         </div>
-                   </div>
+                 
                    </TexteAnimation>
                   </div>
 
@@ -106,7 +114,7 @@ export default function HomePage() {
                 <div className="w-full text-center mt-15 lg:mt-25">
 
                   <h2 className="text-4xl md:text-5xl  mb-5 font-bold">Nos Portefolios</h2>
-                  <p className=" mb-8 text-center">Lorem Eum amet architecto debitis necessitatibus provident saepe eligendi.</p>
+                  <p className=" mb-8 text-center">Découvrez les réalisations conçues pour nos clients et partenaires</p>
                    
 
                 </div>
@@ -140,10 +148,11 @@ export default function HomePage() {
                       <div>
 
                            <h3 className="text-xl md:text-2xl font-bold">Postopage</h3>
-                           <p className="my-5 ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor quibusdam laboriosam aliquam reiciendis unde tenetur similique suscipit. Voluptatem libero aliquid rem quisquam voluptatum .</p>
+                           <p className="my-5 ">Aujourd’hui, tout le monde peut créer un post sur Facebook, Instagram ou WhatsApp. Mais soyons honnêtes : ces publications se perdent vite dans la masse et ne donnent pas une image vraiment professionnelle.
+                             Avec notre page web dédiée à votre événement, vous offrez à votre public une vitrine élégante, unique et crédible, accessible partout, à tout moment.</p>
                          
                             
-                            <TexteAnimation  tag={"div"}><Button color={"bg-blue-500"} >Découvrir</Button></TexteAnimation>
+                            <TexteAnimation  tag={"div"}> <a href="postopage.com"><Button color={"bg-blue-500"} >Découvrir</Button></a> </TexteAnimation>
                            
                       </div>
 
@@ -163,8 +172,7 @@ export default function HomePage() {
                       <div className="max-w-md">
                         <h1 className="mb-5 text-4xl md:text-5xl font-bold">Contactez - nous</h1>
                         <p className="mb-5 ">
-                          Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem
-                          quasi. In deleniti eaque aut repudiandae et a id nisi.
+                          Contactez - nous par whatsapp ou email pour bénéficier de nos differents services, pour un devis ou une demande de partenariat  
                         </p>
                         <TexteAnimation  tag={"div"}>
                               <Button color={"bg-blue-500"} >Via Whatsapp</Button>
@@ -187,7 +195,7 @@ export default function HomePage() {
                     <div className="w-full text-center " id="suivez">
 
                       <h2 className="text-4xl md:text-5xl mt-15  mb-5 font-bold">Suivez - nous</h2>
-                      <p className=" mb-8 text-center ">Lorem Eum amet architecto debitis necessitatibus provident saepe eligendi.</p>
+                      <p className=" mb-8 text-center ">Abonnez-vous pour ne pas manquer nos actualités : promotions, minute anecdote, et bien plus !</p>
                       
                       <div className="w-full flex justify-center gap-4">
  

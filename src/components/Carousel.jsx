@@ -54,6 +54,14 @@ export default function Carousel() {
     })
   }
 
+  const items = [
+    { titre : "Conception de sites web", texte : "Création de sites web innovants, adaptés à tous les écrans, valorisant l’activité et le secteur de chacun de nos clients et partenaires.", image: imageCarousel1, clas : "items-start ", id:"slide1", classDiv : "ml-2.5 md:ml-[60px]" },
+    { titre : "Flyer For the Future ", texte : "Des services performants et uniques, pensés pour répondre efficacement aux besoins de nos clients et partenaires . ", image: imageCarousel2, clas : "items-center text-center", id:"slide2", classDiv:"" },
+    { titre : "Conception graphique", texte : "Conception d'affiche, flyer, logo ... personnalisée, offrant une image de marque forte, élégante et une beauté visuelle durable. ", image: imageCarousel3, clas : "items-end text-end",id:"slide3", classDiv:"mr-2.5 md:mr-[60px]" },
+
+
+  ]
+
   return (
     <section className="w-full mx-auto p-4 mt-[10vh]">
 
@@ -62,76 +70,37 @@ export default function Carousel() {
         ref={carouselRef}
         className="carousel carousel-center w-full space-x-4 rounded-box"
       >
+  
+      {items.map((item,index) => (
+                   
 
-        {/* SLIDE 1 */}
-        <div id="slide1" className="carousel-item relative w-[85%] rounded-box">
-          <div
-            className="w-full h-[70vh] md:h-[80vh] rounded-box flex flex-col justify-center items-start bg-cover bg-center"
-            style={{
-              backgroundImage: `
-                linear-gradient(to bottom, rgba(0,0,0,0.3), rgba(0,0,0,0.5)),
-                url(${imageCarousel1})
-              `,
-            }}
-          >
-            <div className="ml-2.5 md:ml-[60px] max-w-[80%]">
-              <Intersection tag="h2" stylo="font-bold text-4xl md:text-5xl text-white mb-2">
-                Un design personnalisé
-              </Intersection>
-              <Intersection tag="p" stylo="text-[15px] md:text-[16px] text-white mb-2 font-monserrat">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo vero ullam iure officia.
-              </Intersection>
-              <Button color="bg-blue-500">Contactez - Nous</Button>
-            </div>
-          </div>
+          <div id={item.id} key={index} className="carousel-item relative w-[85%] rounded-box">
+              <div
+                className={`w-full h-[70vh] md:h-[80vh] rounded-box flex flex-col justify-center ${item.clas} bg-cover bg-center`}
+                style={{
+                  backgroundImage: `
+                    linear-gradient(to bottom, rgba(0,0,0,0.3), rgba(0,0,0,0.5)),
+                    url(${item.image})
+                  `,
+                }}
+              >
+                <div className={ `${item.classDiv} max-w-[80%]`}>
+                  <Intersection tag="h2" stylo="font-bold text-4xl md:text-5xl text-white mb-2">
+                    {item.titre}
+                  </Intersection>
+                  <Intersection tag="p" stylo="text-[15px] md:text-[16px] text-white mb-2 font-monserrat">
+                      {item.texte}
+                  </Intersection>
+                  <Button color="bg-blue-500">Contactez - Nous</Button>
+                </div>
+              </div>
         </div>
+          
 
-        {/* SLIDE 2 */}
-        <div id="slide2" className="carousel-item relative w-[85%] rounded-box">
-          <div
-            className="w-full h-[70vh] md:h-[80vh] rounded-box flex flex-col justify-center items-center text-center bg-cover bg-center"
-            style={{
-              backgroundImage: `
-                linear-gradient(to bottom, rgba(0,0,0,0.3), rgba(0,0,0,0.5)),
-                url(${imageCarousel2})
-              `,
-            }}
-          >
-            <div className="max-w-[80%]">
-              <Intersection tag="h2" stylo="font-bold text-4xl md:text-5xl text-white mb-2">
-                Un design personnalisé
-              </Intersection>
-              <Intersection tag="p" stylo="text-[15px] md:text-[16px] text-white mb-2 font-monserrat">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo vero ullam iure officia.
-              </Intersection>
-              <Button color="bg-blue-500">Contactez - Nous</Button>
-            </div>
-          </div>
-        </div>
-
-        {/* SLIDE 3 */}
-        <div id="slide3" className="carousel-item relative w-[85%] rounded-box">
-          <div
-            className="w-full h-[70vh] md:h-[80vh] rounded-box flex flex-col justify-center items-end text-end bg-cover bg-center"
-            style={{
-              backgroundImage: `
-                linear-gradient(to bottom, rgba(0,0,0,0.3), rgba(0,0,0,0.5)),
-                url(${imageCarousel3})
-              `,
-            }}
-          >
-            <div className="mr-2.5 md:mr-[60px] max-w-[80%]">
-              <Intersection tag="h2" stylo="font-bold text-4xl md:text-5xl text-white mb-2">
-                Un design personnalisé
-              </Intersection>
-              <Intersection tag="p" stylo="text-[15px] md:text-[16px] text-white mb-2 font-monserrat">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo vero ullam iure officia.
-              </Intersection>
-              <Button color="bg-blue-500">Contactez - Nous</Button>
-            </div>
-          </div>
-        </div>
-
+      ))}
+        
+ 
+       
       </div>
 
       {/* PAGINATION (points bleus) */}

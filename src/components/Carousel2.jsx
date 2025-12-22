@@ -15,19 +15,19 @@ export default function Carousel2() {
 
 
                     <div id="item1" className="carousel-item w-full ">
-                          <p className="mt-2 mb-4 ">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum amet architecto debitis necessitatibus provident saepe, blanditiis cumque iure! Voluptates, alias aspernatur.</p>
+                          <p className="mt-2 mb-4 ">Nous disposons de développeurs certifiés par <span className="font-bold">Meta</span>, garantissant des solutions digitales fiables, innovantes et performantes, adaptées à vos besoins et à votre secteur d’activité.</p>
                          
                     </div>
                     <div id="item2" className="carousel-item w-full">
-                          <p className="mt-2 mb-4 ">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum amet architecto debitis necessitatibus provident saepe, blanditiis cumque iure! Voluptates, alias aspernatur.</p>
+                          <p className="mt-2 mb-4 ">Des designers <span className="font-bold">expérimentés</span> pour vos besoins, capables de valoriser votre image de marque avec créativité, impact et professionnalisme, tout en proposant des solutions esthétiques et efficaces.</p>
 
                     </div>
                     <div id="item3" className="carousel-item w-full">
-                          <p className="mt-2 mb-4 ">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum amet architecto debitis necessitatibus provident saepe, blanditiis cumque iure! Voluptates, alias aspernatur.</p>
+                          <p className="mt-2 mb-4 ">Nous avons accompagné diverses entreprises et particuliers. <span className="font-bold"> Forts de nos réussites et de nos erreurs</span>, nous savons ce qui fonctionne et ce qui ne fonctionne pas, afin de vous proposer des solutions digitales efficaces et adaptées à vos besoins.</p>
 
                     </div>
                     <div id="item4" className="carousel-item w-full">
-                          <p className="mt-2 mb-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum amet architecto debitis necessitatibus provident saepe, blanditiis cumque iure! Voluptates, alias aspernatur.</p>
+                          <p className="mt-2 mb-4">Car nous sommes comme vous : des <span className="font-bold">humains</span>  pleins d’ambition et d’audace, et nous savons mieux que quiconque à quel point la réalisation de vos idées vous tient à cœur.</p>
                       
                     </div>
                   </div>

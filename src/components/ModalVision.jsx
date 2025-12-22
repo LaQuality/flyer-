@@ -16,7 +16,7 @@ export default function ModalVision() {
                             ` }} ></div>
             </div>
             <h3 className="font-bold text-2xl mt-6 ">Un pas vers le futur!</h3>
-            <p className="py-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non voluptates mollitia deserunt sunt, ratione autem voluptatum, rem itaque, assumenda totam voluptatibus porro ex alias iusto quod impedit aperiam labore rerum.</p>
+            <p className="py-2">Notre vision est de rendre la digitalisation accessible à tous, en proposant des solutions innovantes sur le marché et en étant l’un des acteurs permettant à la RDC de rattraper chaque jour son retard en matière de technologies, pour construire un avenir qui ne dépend pas uniquement des solutions occidentales.</p>
         </div>
 </dialog>
   )
